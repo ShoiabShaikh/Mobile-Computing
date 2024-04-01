@@ -5,14 +5,14 @@
     <style name="number">
         <item name="android:layout_marginTop">@dimen/_5sdp</item>
         <item name="android:background">@drawable/custom_button</item>
-        <item name="android:textColor">?attr/textColor</item>
+        <item name="android:textColor">@color/purple</item>
     </style>
 
     <style name="arithmeticOperator">
         <item name="android:layout_marginStart">@dimen/_5sdp</item>
         <item name="android:background">@drawable/custom_button</item>
 
-        <item name="android:textColor">@color/purple</item>
+        <item name="android:textColor">@color/ic_launcher_background</item>
     </style>
 
 

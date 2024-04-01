@@ -5,7 +5,7 @@
     android:minWidth="300dp"
     android:padding="20dp"
     android:orientation="vertical"
-    android:background="#47092f">
+    android:background="#A15757">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -16,19 +16,19 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"/>
+            android:src="@android:drawable/ic_menu_sort_by_size"/>
 
         <Button
             android:id="@+id/up"
             android:text="Parent Folder"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#bf1550" />
+            android:background="#00BCD4" />
     </LinearLayout>
 
     <TextView
         android:id="@+id/folder"
-        android:textColor="#0cff46"
+        android:textColor="#F3DC13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -36,11 +36,11 @@
         android:id="@+id/dialoglist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:listSelector="#10f816"
+        android:listSelector="#9C27B0"
         android:smoothScrollbar="true"
-        android:background="#ba3e6b"
+        android:background="#EAD204"
         android:fastScrollEnabled="false"
-        android:foregroundTint="#591a1e"
+        android:foregroundTint="#591ccc"
         android:nestedScrollingEnabled="false"
         android:touchscreenBlocksFocus="true"
         android:divider="#1c1a20"

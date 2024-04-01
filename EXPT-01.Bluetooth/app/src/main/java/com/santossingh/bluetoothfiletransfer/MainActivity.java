@@ -7,7 +7,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Environment;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -215,7 +215,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Toast.makeText(this, "****************\nDeveloper: Santosh Kumar Singh\nContact: superssingh@gmail.com\n****************", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "****************\nDeveloper: Shoiab Shaikh \nContact: shoiabshaikh@gmail.com\n****************", Toast.LENGTH_LONG).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
